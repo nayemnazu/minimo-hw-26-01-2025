@@ -1,0 +1,211 @@
+/* common css start */
+@font-face {
+    font-family: playfair-display;
+    src: url(fonts/playfair-display-normal.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: playfair-display;
+    color: #626262;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* common css end */
+
+/* navbar start */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar{
+    overflow: hidden;
+    margin: 40px 0px;
+}
+.navbar .logo{
+    float: left;
+}
+.navbar .logo img{
+    width: 100%;
+}
+.navbar .nav-link{
+    float: right;
+}
+.navbar .nav-link ul{
+    float: right;
+}
+.navbar .nav-link ul li{
+    float: left;
+    list-style: none;
+}
+.navbar .nav-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    padding: 0px 60px;
+}
+.navbar .nav-link ul li a:hover{
+    color: black;
+}
+.navbar .nav-link ul li:last-child a{
+    padding-right: 0px;
+}
+/* navbar end */
+
+/*  banner start */
+.banner{
+    margin: 60px 0px;
+}
+.banner img{
+    width: 100%;
+}
+/*  banner end */
+
+/*  photography start */
+.p-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.photography h5{
+    text-transform: uppercase;
+    padding-top: 40px;
+    font-weight: 300;
+}
+.photography h1{
+    padding: 20px 0px;
+}
+.photography p{
+    line-height: 1.5;
+}
+.photography {
+
+}
+/*  photography end */
+
+/*  card start */
+.card-area{
+    overflow: hidden;
+    margin: 60px 0px;
+}
+.card-body-left{
+    width: 48%;
+    float: left;
+    margin: 30px 0px;
+}
+.card-body-right{
+    width: 48%;
+    float: right;
+    margin: 30px 0px;
+}
+.card-img{
+    
+}
+.card-img img{
+    width: 100%;
+}
+.card-text h5{
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+.card-text h1{
+    padding: 0px 0px 20px 0px;
+}
+.card-text p{
+    padding: 0px 0px 20px 0px;
+    line-height: 1.5;
+}
+/*  card end */
+
+/*  newsletter start */
+.newsletter{
+    background: #f0f0f0;
+}
+.n-container{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+.n-container form{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.n-container form input{
+    background-color: transparent;
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin: 60px 0px 0px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.n-container form input:focus{
+    outline: none;
+    border: none;
+}
+.n-container form button{
+    position: absolute;
+    top: 74px;
+    right: -20px;
+    border: none;
+}
+/*  newsletter end */
+
+/*  load more satrt */
+.btn{
+    width: 160px;
+    margin: 0 auto;
+}
+.load-more{
+    padding: 15px 20px;
+    margin: 20px 0px 100px 0px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+/*  load more end */
+
+/*  footer start */
+.f-box{
+    padding: 30px 0px;
+    overflow: hidden;
+}
+.f-left{
+    
+    float: left;
+}
+.f-left ul{
+    
+}
+.f-left ul li{
+    list-style: none;
+    float: left;
+}
+.f-left ul li a{
+    color: #000;
+    padding-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.f-right{
+    float: right;
+}
+.f-right ul{
+
+}
+.f-right ul li{
+    list-style: none;
+    float: left;
+}
+.f-right ul li a{
+    color: #000;
+    padding-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*  footer end */
