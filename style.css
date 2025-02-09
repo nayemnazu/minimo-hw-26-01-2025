@@ -190,14 +190,14 @@ header{
     font-size: 24px;
     font-weight: 400px;
     color: #333;
-    border: 1px solid #333;
+    border: 1px solid #626262;
     cursor: pointer;
     transition: 0.33s linear;
     
 }
 .container3 button:hover{
     background-color: #626262;
-    color: #000;
+    color: white;
 }
 /* load end */
 
